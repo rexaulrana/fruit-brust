@@ -59,7 +59,7 @@
         class="hidden lg:block md:block flex justify-start items-center mt-9"
       >
         <div class="navbar bg-[#F85559] rounded-full">
-          <div class="space-x-3 md:text-sm lg:text-lg lg:font-medium">
+          <div class="space-x-3 md:text-sm lg:text-lg lg:font-medium px-7">
             <a class="normal-case text-xl">Home</a>
             <a class="normal-case text-xl">About Us</a>
             <a class="normal-case text-xl">Shop</a>
@@ -71,7 +71,7 @@
             <h1 class="md:text-2xl lg:text-4xl font-bold">Fruit Brust</h1>
           </div>
 
-          <div class=" ">
+          <div class="pr-5">
             <input
               type="text"
               placeholder="Search here"
@@ -88,7 +88,11 @@
       <div
         class="navbar bg-base-100 block lg:hidden md:hidden flex justify-center items-center mt-6"
       >
-        <div class="navbar-start">
+        <div class="navbar-center">
+          <img src="./images/logo.png" alt="" />
+          <a class="text-4xl font-bold">Fruit Brust</a>
+        </div>
+        <div class="navbar-end">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost btn-circle">
               <svg
@@ -127,10 +131,6 @@
             </ul>
           </div>
         </div>
-        <div class="navbar-center">
-          <img src="./images/logo.png" alt="" />
-          <a class="text-4xl font-bold">Fruit Brust</a>
-        </div>
       </div>
 
       <!-- Banner section start -->
@@ -140,8 +140,8 @@
 
           <div id="slide1" class="carousel-item relative w-full">
             <div class="bg-[url('./images/banner2.png')] w-full">
-              <div class="text-center mt-24 py-16">
-                <h1 class="text-base lg:text-7xl font-extrabold text-white">
+              <div class="text-center mt-15 py-16">
+                <h1 class="text-2xl lg:text-7xl font-extrabold text-white">
                   Exotic tastes at your <br />
                   doorstep
                 </h1>
@@ -165,8 +165,8 @@
           <!-- slide 2 -->
           <div id="slide2" class="carousel-item relative w-full">
             <div class="bg-[url('./images/banner1.png')] w-full">
-              <div class="text-center mt-24 py-16">
-                <h1 class="lg:text-7xl font-extrabold text-white">
+              <div class="text-center mt-15 py-16">
+                <h1 class="text-2xl lg:text-7xl font-extrabold text-white">
                   Exotic tastes at your <br />
                   doorstep
                 </h1>
@@ -189,8 +189,8 @@
           <!-- slide 3 -->
           <div id="slide3" class="carousel-item relative w-full">
             <div class="bg-[url('./images/banner3.png')] w-full">
-              <div class="text-center mt-24 py-16">
-                <h1 class="lg:text-7xl font-extrabold text-white">
+              <div class="text-center mt-15 py-16">
+                <h1 class="text-2xl lg:text-7xl font-extrabold text-white">
                   Exotic tastes at your <br />
                   doorstep
                 </h1>
@@ -213,8 +213,8 @@
           <!-- slide 4 -->
           <div id="slide4" class="carousel-item relative w-full">
             <div class="bg-[url('./images/banner4.png')] w-full">
-              <div class="text-center mt-24 py-16">
-                <h1 class="lg:text-7xl font-extrabold text-white">
+              <div class="text-center mt-14 py-16">
+                <h1 class="text-2xl lg:text-7xl font-extrabold text-white">
                   Exotic tastes at your <br />
                   doorstep
                 </h1>
@@ -233,6 +233,17 @@
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
           </div>
+        </div>
+
+        <!-- Overlay on banner section -->
+
+        <div
+          class="lg:flex justify-center gap-12 bg-white w-[800px] ml-28 rounded-lg -mt-14 drop-shadow-lg hidden lg:block"
+        >
+          <div><img src="./images/fruit1.png" alt="" /></div>
+          <div><img src="./images/fruit2.png" alt="" /></div>
+          <div><img src="./images/fruit3.png" alt="" /></div>
+          <div><img src="./images/fruit4.png" alt="" /></div>
         </div>
       </section>
     </header>
