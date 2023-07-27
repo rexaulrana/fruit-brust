@@ -25,6 +25,12 @@
             colors: {
               clifford: "#da373d",
             },
+            backgroundImage: {
+              slide1: "url('./images/banner1.png')",
+              slide2: "url('./images/banner2.png')",
+              slide3: "url('./images/banner3.png')",
+              slide4: "url('./images/banner4.png')",
+            },
           },
         },
       };
@@ -126,6 +132,109 @@
           <a class="text-4xl font-bold">Fruit Brust</a>
         </div>
       </div>
+
+      <!-- Banner section start -->
+      <section class="mt-10">
+        <div class="carousel w-full">
+          <!-- slide one -->
+
+          <div id="slide1" class="carousel-item relative w-full">
+            <div class="bg-[url('./images/banner2.png')] w-full">
+              <div class="text-center mt-24 py-16">
+                <h1 class="text-base lg:text-7xl font-extrabold text-white">
+                  Exotic tastes at your <br />
+                  doorstep
+                </h1>
+                <p class="text-sm font-medium text-white">
+                  We supply highly quality organic products
+                </p>
+                <button class="btn bg-[#F85559] text-black border-none mt-4">
+                  Shop Now
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+
+          <!-- slide 2 -->
+          <div id="slide2" class="carousel-item relative w-full">
+            <div class="bg-[url('./images/banner1.png')] w-full">
+              <div class="text-center mt-24 py-16">
+                <h1 class="lg:text-7xl font-extrabold text-white">
+                  Exotic tastes at your <br />
+                  doorstep
+                </h1>
+                <p class="text-sm font-medium text-white">
+                  We supply highly quality organic products
+                </p>
+                <button class="btn bg-[#F85559] text-black border-none mt-4">
+                  Shop Now
+                </button>
+              </div>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+
+          <!-- slide 3 -->
+          <div id="slide3" class="carousel-item relative w-full">
+            <div class="bg-[url('./images/banner3.png')] w-full">
+              <div class="text-center mt-24 py-16">
+                <h1 class="lg:text-7xl font-extrabold text-white">
+                  Exotic tastes at your <br />
+                  doorstep
+                </h1>
+                <p class="text-sm font-medium text-white">
+                  We supply highly quality organic products
+                </p>
+                <button class="btn bg-[#F85559] text-black border-none mt-4">
+                  Shop Now
+                </button>
+              </div>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+
+          <!-- slide 4 -->
+          <div id="slide4" class="carousel-item relative w-full">
+            <div class="bg-[url('./images/banner4.png')] w-full">
+              <div class="text-center mt-24 py-16">
+                <h1 class="lg:text-7xl font-extrabold text-white">
+                  Exotic tastes at your <br />
+                  doorstep
+                </h1>
+                <p class="text-sm font-medium text-white">
+                  We supply highly quality organic products
+                </p>
+                <button class="btn bg-[#F85559] text-black border-none mt-4">
+                  Shop Now
+                </button>
+              </div>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
     <main></main>
     <footer></footer>
