@@ -42,6 +42,92 @@
         font-family: "Lato", sans-serif;
       }
     </style>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body></body>
+  <body class="font-lato">
+    <header class="container mx-auto">
+      <!-- Header for large and medium devices -->
+      <nav
+        class="hidden lg:block md:block flex justify-start items-center mt-9"
+      >
+        <div class="navbar bg-[#F85559] rounded-full">
+          <div class="space-x-3 md:text-sm lg:text-lg lg:font-medium">
+            <a class="normal-case text-xl">Home</a>
+            <a class="normal-case text-xl">About Us</a>
+            <a class="normal-case text-xl">Shop</a>
+            <a class="normal-case text-xl">All Fruits</a>
+          </div>
+          <div class="flex flex-1 justify-center items-center gap-2">
+            <img src="./images/logo.png" alt="" />
+
+            <h1 class="md:text-2xl lg:text-4xl font-bold">Fruit Brust</h1>
+          </div>
+
+          <div class=" ">
+            <input
+              type="text"
+              placeholder="Search here"
+              class="input input-bordered w-24 md:w-auto rounded-full relative"
+            />
+            <i
+              class="fa-solid fa-magnifying-glass input-icon absolute right-16"
+            ></i>
+          </div>
+        </div>
+      </nav>
+
+      <!-- header for small device -->
+      <div
+        class="navbar bg-base-100 block lg:hidden md:hidden flex justify-center items-center mt-6"
+      >
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h7"
+                />
+              </svg>
+            </label>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg font-medium"
+            >
+              <li><a>Home</a></li>
+              <li><a>About us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All fruits</a></li>
+              <li>
+                <input
+                  type="text"
+                  placeholder="Search here"
+                  class="input input-bordered w-24 md:w-auto rounded-full relative"
+                />
+                <i
+                  class="fa-solid fa-magnifying-glass input-icon absolute right-24 bottom-2"
+                ></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-center">
+          <img src="./images/logo.png" alt="" />
+          <a class="text-4xl font-bold">Fruit Brust</a>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
