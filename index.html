@@ -238,16 +238,300 @@
         <!-- Overlay on banner section -->
 
         <div
-          class="lg:flex justify-center gap-12 bg-white w-[800px] ml-28 rounded-lg -mt-14 drop-shadow-lg hidden lg:block"
+          class="lg:flex justify-center gap-12 bg-white m-28 rounded-lg -mt-14 drop-shadow-lg hidden lg:block"
         >
-          <div><img src="./images/fruit1.png" alt="" /></div>
-          <div><img src="./images/fruit2.png" alt="" /></div>
-          <div><img src="./images/fruit3.png" alt="" /></div>
-          <div><img src="./images/fruit4.png" alt="" /></div>
+          <div class="text-center p-7">
+            <img src="./images/fruit1.png" alt="" />
+            <p>Strawberry</p>
+          </div>
+          <div class="text-center p-7">
+            <img src="./images/fruit2.png" alt="" />
+            <p>Orange</p>
+          </div>
+          <div class="text-center p-7">
+            <img src="./images/fruit3.png" alt="" />
+            <p>Mango</p>
+          </div>
+          <div class="text-center p-7">
+            <img src="./images/fruit4.png" alt="" />
+            <p>Strawberry</p>
+          </div>
+          <div class="text-center p-7">
+            <img src="./images/fruit5.png" alt="" />
+            <p>Anar</p>
+          </div>
         </div>
       </section>
     </header>
-    <main></main>
+    <main class="container mx-auto">
+      <!-- deal of the day section start -->
+      <section>
+        <div
+          class="flex flex-col lg:flex-row justify-between items-center mt-6"
+        >
+          <div class="mb-3">
+            <h3 class="text-5xl font-extrabold text-black mb-2">
+              Deal of the day
+            </h3>
+
+            <p class="text-xs font-medium text-[#121212]">
+              Contrary to popular belief, is not simply random text. <br />
+              It has roots in a piece of classical Latin literature <br />
+              from 45 BC, making it over 2000 years old.
+            </p>
+          </div>
+          <div class="flex justify-center items-center gap-3">
+            <div>
+              <h1 class="text-5xl font-extrabold text-black">29</h1>
+              <p class="text-sm font-medium text-black">Days</p>
+            </div>
+            <span class="text-black">:</span>
+            <div>
+              <h1 class="text-5xl font-extrabold text-black">16</h1>
+              <p class="text-sm font-medium text-black">Hours</p>
+            </div>
+            <span class="text-black">:</span>
+            <div>
+              <h1 class="text-5xl font-extrabold text-black">14</h1>
+              <p class="text-sm font-medium text-black">Minutes</p>
+            </div>
+            <span class="text-black">:</span>
+            <div>
+              <h1 class="text-5xl font-extrabold text-black">08</h1>
+              <p class="text-sm font-medium text-black">seconds</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Price and details with modal section start -->
+      <section class="flex flex-col gap-3 lg:flex-row justify-evenly items-center">
+        <!-- card 1 -->
+        <div class="card w-96 bg-base-100 shadow-xl">
+
+          <figure class="px-10 pt-10">
+            <img
+              src="./images/fruit6.png"
+              alt=""
+              class="rounded-xl w-[100px]"
+            />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="text-base font-bold text-black">12.90$ - 18.85$</h2>
+            <p class="text-base font-medium">Apples</p>
+            <div class="">
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="">
+              <button class="btn btn-primary" onclick="my_modal_1.showModal()">
+                Details
+              </button>
+              <dialog id="my_modal_1" class="modal">
+                <form method="dialog" class="modal-box">
+                  <figure class="px-10 pt-10">
+            <img
+              src="./images/fruit6.png"
+              alt=""
+              class="rounded-xl w-[100px]"
+            />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="text-base font-bold text-black">12.90$ - 18.85$</h2>
+            <p class="text-2xl font-medium">Apples</p>
+            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            <div class="">
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+                  <div class="modal-action">
+                    <button class="btn btn-success">Buy Now</button>
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-warning">Close</button>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2
+         -->
+          <div class="card w-96 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="./images/fruit7.png"
+              alt=""
+              class="rounded-xl w-[100px]"
+            />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="text-base font-bold text-black">12.90$ - 18.85$</h2>
+            <p class="text-base font-medium">Orange</p>
+            <div class="">
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="">
+              <button class="btn btn-primary" onclick="my_modal_2.showModal()">
+                Details
+              </button>
+              <dialog id="my_modal_2" class="modal">
+                <form method="dialog" class="modal-box">
+                  <figure class="px-10 pt-10">
+            <img
+              src="./images/fruit7.png"
+              alt=""
+              class="rounded-xl w-[100px]"
+            />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="text-base font-bold text-black">12.90$ - 18.85$</h2>
+            <p class="text-2xl font-medium">Orange</p>
+            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            <div class="">
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+                  <div class="modal-action">
+                    <button class="btn btn-success">Buy Now</button>
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-warning">Close</button>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+         <div class="card w-96 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="./images/fruit8.png"
+              alt=""
+              class="rounded-xl w-[100px]"
+            />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="text-base font-bold text-black">12.90$ - 18.85$</h2>
+            <p class="text-base font-medium">Red Dragon</p>
+            <div class="">
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="">
+              <button class="btn btn-primary" onclick="my_modal_3.showModal()">
+                Details
+              </button>
+              <dialog id="my_modal_3" class="modal">
+                <form method="dialog" class="modal-box">
+                  <figure class="px-10 pt-10">
+            <img
+              src="./images/fruit8.png"
+              alt=""
+              class="rounded-xl w-[100px]"
+            />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="text-base font-bold text-black">12.90$ - 18.85$</h2>
+            <p class="text-2xl font-medium">Red Dragon</p>
+            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            <div class="">
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+                  <div class="modal-action">
+                    <button class="btn btn-success">Buy Now</button>
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-warning">Close</button>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4
+         -->
+
+          <div class="card w-96 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img
+              src="./images/fruit9.png"
+              alt=""
+              class="rounded-xl w-[100px]"
+            />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="text-base font-bold text-black">12.90$ - 18.85$</h2>
+            <p class="text-base font-medium">Banana</p>
+            <div class="">
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="">
+              <button class="btn btn-primary" onclick="my_modal_4.showModal()">
+                Details
+              </button>
+              <dialog id="my_modal_4" class="modal">
+                <form method="dialog" class="modal-box">
+                  <figure class="px-10 pt-10">
+            <img
+              src="./images/fruit9.png"
+
+              alt=""
+              class="rounded-xl w-[100px]"
+            />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="text-base font-bold text-black">12.90$ - 18.85$</h2>
+            <p class="text-2xl font-medium">Banana</p>
+            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            <div class="">
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star text-amber-400"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+                  <div class="modal-action">
+                    <button class="btn btn-success">Buy Now</button>
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn btn-warning">Close</button>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <div class=" flex justify-center items-center">
+          <button class="btn btn-secondary">Show All</button>
+        </div>
+    </main>
     <footer></footer>
   </body>
 </html>
